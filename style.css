@@ -1,0 +1,169 @@
+/* script */
+#topCover {
+	margin-top:5.7vh;
+	width:100%;
+	height:40vh;
+}
+#CoverImg {
+	width: 100%;
+	height: 40vh;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	object-fit: cover;
+}
+#covUrl {
+	border:0;
+	background: #262626;
+	width: 50%;
+	padding:1vh;
+	padding-left:1.7vh;
+	padding-right:1.7vh;
+	margin-top:1vh;
+	color: #969696;
+	font-size: 1.25vw;
+	line-height:  1.5vw;
+	border-radius: 0;
+}
+#covUrl::placeholder {
+	font-size: 1.25vw;
+}
+#covUrl:focus {
+	outline: 0.3vh solid #333333;
+}
+#covUrl:disabled {
+	cursor: not-allowed;
+}
+.Wslider {
+	float: right;
+	-webkit-appearance: none;
+	appearance: none;
+	width: 40%;
+	height:2.3vh;
+	margin-top:2.2vh;
+	background: #262626;
+	outline: none;
+}
+.Wslider::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	appearance: none;
+	width:4.5vh;
+	height:2.3vh;
+	background: #EEE; 
+	cursor: pointer;
+}
+.Wslider::-moz-range-thumb {
+	width:4.5vh;
+	height:2.3vh;
+	background: #EEE;
+	cursor: pointer;
+}
+/* script */
+
+/* demo */
+body {
+	padding:0;
+	margin:0;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size:0.9vw;
+	line-height:1.5vw;
+	color:#fafafa;
+	background:#1a1919;
+	tab-size:1.3vw;
+}
+
+#Tmenu {
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+	width:100vw;
+	height:5.7vh;
+	background:#0e0e0e;
+	color:#fafafa;
+	border-bottom:1px solid #333;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+	z-index:9999;
+}
+#Tmenu a {
+	font-weight:100;
+	color:#fafafaf1;
+	text-decoration:none;
+	cursor:pointer;
+}
+#TmIn {
+	width:calc(70vw);
+	height:3.6vh;
+	margin:0 auto;
+}
+#TmInL {
+	float: left;
+}
+#TmInL a {
+	color:#fafafaf1;
+	font-family: 'Megrim', cursive;
+	font-size:1.8vw;
+	line-height: 5.2vh;
+}
+#TmInL a:hover {
+	color:#fafafaf1;
+}
+#TmInL a span {
+	color:#00b646;
+}
+#TmInR {
+	float: right;
+}
+.TmInSU {
+	display: block;
+	float: right;
+	height:5.7vh;
+	padding-left:1vw;
+	padding-right:1vw;
+	text-align: right;
+	line-height: 5.5vh;
+	cursor: pointer;
+}
+.TmInSU:hover {
+	background:#EEE;
+}
+#TmInLI {
+	display: block;
+	float: right;
+	height:5.7vh;
+	padding-left:1vw;
+	padding-right:1vw;
+	text-align: right;
+	line-height: 5.5vh;
+	cursor: pointer;
+}
+#TmInLI:hover {
+	background:#222;
+}
+.TmInSU:hover {
+	background:#222;
+}
+#main {
+	margin-top:10vh;
+	margin-left:16vw;
+	width:68vw;
+	font-size:1.25vw;
+	font-weight: 100;
+}
+#main h1 {
+	font-size:2vw;
+}
+#main small {
+	color:#555;
+}
+#ex {
+	float: left;
+	width:30vw;
+	font-size:0.8vw;
+	margin-top:1.3vh;
+	cursor: pointer;
+	color:#00b646;
+}
+/* demo */
