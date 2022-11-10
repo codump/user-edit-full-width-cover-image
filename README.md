@@ -4,4 +4,4 @@ Cover images are a common thing now a days. In this example I have made a full w
 Preview:
 ![image](https://user-images.githubusercontent.com/108196527/201096815-1b8b7593-978d-497c-be5d-cf98cfb5fc21.png)
 
-# <a href="https://codump.github.io/demo/user-edit-full-width-cover-image/" target="_new">Live demo</a> - <a href="https://github.com/codump/user-edit-full-width-cover-image/releases/latest" target="_new">Latest release (download)</a>
+# <a href="https://codump.github.io/demo/user-edit-full-width-cover-image/" target="_new">🔗 Live demo</a> - <a href="https://github.com/codump/user-edit-full-width-cover-image/releases/latest" target="_new">✅ Latest release (download)</a>
